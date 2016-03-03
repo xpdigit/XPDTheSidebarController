@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { 'Jon Danao' => "jondanao@gmail.com" }
   s.source       = { :git => 'https://github.com/xpdigit/XPDTheSidebarController.git', 
-                     :tag => '0.7' }
+                     :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
