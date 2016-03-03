@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'XPDTheSidebarController'
-  s.version      = '0.7'
+  s.version      = '0.7.1'
   s.summary      = 'A container view controller that implements different popular sidebar view controllers like Facebook, Airbnb, Flipboard, etc.'
   s.homepage     = 'https://github.com/jondanao/TheSidebarController/'
   s.screenshots  = 'https://raw2.github.com/jondanao/TheSidebarController/master/demo.gif'
