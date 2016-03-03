@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'QuartzCore'
   s.source_files = 'TheSidebarController/*.{h,m}', 'TheSidebarController/**/*.{h,m}'
   s.header_mappings_dir = '.'
-  s.public_header_files = "TheSidebarController/TheSidebarController.h"
+  s.public_header_files = ["TheSidebarController/TheSidebarController.h", "TheSidebarController/Animations/*.h"]
 
 end
